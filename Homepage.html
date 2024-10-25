@@ -18,9 +18,9 @@
         <!--Here we will create the other div to create the menu-->
         <div class="header-menu">
           <!--Each icon will represent a list item (technically ul is a list)-->
-            <ul class="header-menu-item">About me</ul>
-            <ul class="header-menu-item">My Projects</ul>
-            <ul class="header-menu-item">Contact</ul>
+          <a href="./AboutMe.html"><ul class="header-menu-item">About me</ul></a>
+          <a href="#"><ul class="header-menu-item">My Projects</ul></a>
+          <a href="#"><ul class="header-menu-item">Contact</ul></a>
             <ul class="header-menu-item"><img class="lang_icons" alt="Esp" src="./images/spain_icon.png"></img></ul>
             <ul class="header-menu-item"><img class="lang_icons" alt="Eng" src="./images/uk_icon.png"></img></ul>
             <ul class="header-menu-item"><img class="lang_icons" alt="Por" src="./images/brazil_icon.png"></img></ul>
@@ -46,9 +46,9 @@
         <!--Here we've created the list of images with an unordered list (ul) and all items are represented
         with "li"-->
         <ul class="contactlist">
-          <li class="contactimageslist"><img class="contacticons" alt="Linkedin" src="./images/linkedin_icon.svg"/></li>
-          <li class="contactimageslist"><img class="contacticons" alt="GitHub" src="./images/github_icon.svg"/></li>
-          <li class="contactimageslist"><img class="contacticons" alt="CV" src="./images/pdf_icon.svg"/></li>
+          <li class="contactimageslist"><a target="_blank" href="https://www.linkedin.com/in/alyson-valeria-castiblanco-casta%C3%B1eda/"><img class="contacticons" alt="Linkedin" src="./images/linkedin_icon.svg"/></a></li>
+          <li class="contactimageslist"><a target="_blank" href="https://github.com/ALYSONCASTIBLANCO"><img class="contacticons" alt="GitHub" src="./images/github_icon.svg"/></a></li>
+          <li class="contactimageslist"><a target="_blank" href="./CV_CASTIBLANCO_CASTAÑEDA_ALYSON_VALERIA_ENGINEER_english.pdf"><img class="contacticons" alt="CV" src="./images/pdf_icon.svg"/></a></li>
           <li class="contactimageslist"><img class="contacticons" alt="Gmail" src="./images/mail_icon.svg"/></li>
         </ul>
       </div>
@@ -56,7 +56,7 @@
         <!--The same principle with buttons-->
         <ul class="menubuttons">
           <!--Creating buttons with tag "button"-->
-          <li class="contactimageslist"><button class="buttoncontact">About me</button></li>
+          <li class="contactimageslist"><button class="buttoncontact" onclick="location.href='./AboutMe.html'">About me</button></li>
           <li class="contactimageslist"><button class="buttoncontact">Projects</button></li>
           <li class="contactimageslist"><button class="buttoncontact">Contact</button></li>
         </ul>
