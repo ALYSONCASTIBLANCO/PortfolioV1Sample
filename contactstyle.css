@@ -1,0 +1,20 @@
+body{
+    background-color: #4B3FB3FF;
+}
+.menubar{
+    /*background-image: url(./images/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png);*/
+    display: inline-block;
+    background-color: azure;
+    border-radius: 20px;
+}
+.quickmenu{
+    display: inline-block;
+}
+/* Image 1 */
+.lang_icons {
+    position: absolute; 
+    top: 32px; 
+    width: 68px; 
+    height: 56px; 
+    border-radius: 0px 0px 0px 0px; 
+  }
