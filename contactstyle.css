@@ -4,17 +4,27 @@ body{
 .menubar{
     /*background-image: url(./images/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png);*/
     display: inline-block;
-    background-color: azure;
+    background-color: rgb(60, 161, 161);
     border-radius: 20px;
+    width:100vw;
 }
 .quickmenu{
     display: inline-block;
 }
 /* Image 1 */
 .lang_icons {
-    position: absolute; 
-    top: 32px; 
     width: 68px; 
     height: 56px; 
     border-radius: 0px 0px 0px 0px; 
+  }
+  .AlyDev {
+    font-family: Arial, Helvetica, sans-serif; /* Heading */
+    font-size: 40px; 
+    line-height: 56px; 
+    font-weight: 700; 
+    color: #F3F4F6FF; /* neutral-200 */
+  }
+  .options{
+      justify-content: end;
+      padding-left: 50vw;
   }
