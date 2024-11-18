@@ -4,43 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./contactstyle.css"/>
+    <link rel="stylesheet" href="./styles.css"/>
     <title>AlyDev- Contact</title>
 </head>
+<!--Here you will put all your page content-->
 <body>
-    <header>
+    <!--In the header, you will find the header bar (the quick access items)-->
+      <header>
+        <!--Here we will create a div (container) that we will use to store all the header bar items.-->
         <div class="menubar">
-            <div style="display: inline-block;">
-                <h1 class="AlyDev">Alydev</h1>
-            </div>
-
-            <div class="options" style="display: inline-block">
-                <ul>
-                    <a href="./AboutMe.html"><li class="quickmenu">About me</li></a>
-                    <a href="./Projects.html"><li class="quickmenu">My Projects</li></a>
-                    <a href="./Contact.html"><li class="quickmenu">Contact</li>
-                    <li class="quickmenu"><img class="lang_icons" alt="Esp" src="./images/spain_icon.png"/></li>
-                    <li class="quickmenu"><img class="lang_icons" alt="Eng" src="./images/uk_icon.png"/></li>
-                    <li class="quickmenu"><img class="lang_icons" alt="Por" src="./images/brazil_icon.png"/></li>
-                </ul>
-            </div>
+          <!--Title page-->
+          <h1 class="AlyDev">AlyDev</h1>
+          <!--Here we will create the other div to create the menu-->
+          <div class="header-menu">
+            <!--Each icon will represent a list item (technically ul is a list)-->
+            <a href="./AboutMe.html"><ul class="header-menu-item">About me</ul></a>
+            <a href="./Projects.html"><ul class="header-menu-item">My Projects</ul></a>
+            <a href="./Contact.html"><ul class="header-menu-item">Contact</ul></a>
+              <ul class="header-menu-item"><img class="lang_icons" alt="Esp" src="./images/spain_icon.png"></img></ul>
+              <ul class="header-menu-item"><img class="lang_icons" alt="Eng" src="./images/uk_icon.png"></img></ul>
+              <ul class="header-menu-item"><img class="lang_icons" alt="Por" src="./images/brazil_icon.png"></img></ul>
+          </div>
         </div>
-    </header>
-    <div>
-        <form action="" method="get">
-            <h5>Name and Last Name</h5>
-            <input name="name" placeholder="Type your Name and Lastname"/>
-            <h5>E-mail</h5>
-            <input name="email" placeholder="example@mail.com"/>
-            <h5>Subject</h5>
-            <input name="subject" placeholder="What is your subject?"/>
-            <h5>Message</h5>
-            <textarea name="message" placeholder="Type your message here"></textarea>
-        </form>
-    </div>
-    <div>
-        <h2>Another section</h2>
-        <img alt="" src="./images/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png"/>
-    </div>
+      </header>
+      <main>
+        <div>
+            <form action="" method="get">
+                <h5>Name and Last Name</h5>
+                <input name="name" placeholder="Type your Name and Lastname"/>
+                <h5>E-mail</h5>
+                <input name="email" placeholder="example@mail.com"/>
+                <h5>Subject</h5>
+                <input name="subject" placeholder="What is your subject?"/>
+                <h5>Message</h5>
+                <textarea name="message" placeholder="Type your message here"></textarea>
+                <input type="submit" name="send" value="Send"/>
+            </form>
+        </div>
+        <!--Footer is created at the end of the page, is like an aditional menu to put at the end of the page.-->
+        <footer>
+            <!--The same principle to create the footer like the header, a div to contain all elements in the
+            footer-->
+            <div class="menubar">
+                <div>
+                    <ul class="pagefooter1">
+                        <li class="contactimageslist"><img class="footericons" alt="mail" src="./images/mail_icon.svg"/></li>
+                        <li class="contactimageslist"><p class="textcontact">castiblanco.castaneda.alyson.val@gmail.com</p></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="pagefooter2">
+                        <li class="contactimageslist"><img class="footericons2" alt="Linkedin" src="./images/linkedin_icon.svg"/></li>
+                        <li class="contactimageslist"><img class="footericons2" alt="GitHub" src="./images/github_icon.svg"/></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </main>
 </body>
 </html>
